@@ -1,0 +1,9 @@
+Site que calcula, o Indice de massa corporal = peso/altura^2
+
+ID | Nome | Altura | peso | Idade | Tipo de Regime | Cardapio | IMC
+1   Manuel   1.80     75     18      Combobox         link      %
+
+
+FaceBook -Nutricionista
+Twitter- Nutricionista
+Instagram - Nutricionista
