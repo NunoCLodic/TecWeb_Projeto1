@@ -1,8 +1,17 @@
 body{
 	background: #FFFFFF;
 }
-.nav{
-	height: 100%;
-	width: 100%;
-	color: blue;
+ul li{
+	list-style-type: none;
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #000000;
+	font-family: "Trebuchet MS",Arial, Helvetica,sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	border-radius: 3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius: 3px;
+	margin: 0 auto;
 }
