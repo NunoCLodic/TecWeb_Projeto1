@@ -1,0 +1,163 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:12px;
+	background-color:#68DC77;
+}
+
+.cabecalho{
+	width:980px;         
+	height:262px;
+	margin:auto;
+}
+.logo{
+	width:410px;
+	height:220px;
+	float:left;
+}
+.banner { 
+    width:570px;
+	height:220px;
+	float:left;
+}
+.menu {
+	width:980px;
+	height:32px;
+	padding-top:10px;
+	background-color: black;
+	float:left;
+}
+.menu ul{
+	list-style: none;
+	text-decoration:none;
+	font-size:16px;
+	padding-left:15px;
+	color:#EFFBFB;
+}
+.menu li{
+	display: inline-block;
+}
+.menu a{
+	text-decoration: none;
+	color: #E9F1F2;
+	width: 70px;
+	height: 25px;
+	display: block;
+	padding: 2px;
+	font-size: 15px;
+}
+.menu a:hover {
+	background:#ED3F3C;
+	transition: 0.5s;
+}
+
+/* Fim do Cabeçalho ------------------------------------ */
+
+
+.conteudoCadastro { 
+	width:980px;
+	height:900px;
+	background-color:#F8DFC6;
+	color:#101010;
+	margin:auto;
+	padding:1px;
+}
+.conteudoCadastro h1{
+	color:#971C20;
+	padding-left:15px;
+	padding-top:10px;
+	text-align: center;
+}
+.conteudoCadastro p{
+	padding-left:15px;
+	padding-top:10px;
+	font-size:16px;
+	text-align:justify;
+}
+
+.tudo{
+	width: 95%;
+	height: 91%;
+	margin: auto;
+	background: rgba(0,0,0,0.8);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 2px;
+}
+.formulario{
+	width: 850px;
+	height: 35%;
+	margin: auto;
+	background: rgba(0,0,0,0.8);
+	padding: 5px 10px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	border-radius: 15px;
+}
+.formulario form{
+	margin-left: 170px;
+	color: white;
+}
+input{
+	margin-top: 10px;
+	color: black;
+	width: 50%;
+	margin-bottom: 5px;
+	padding: 7px;
+	box-sizing: border-box;
+	border:none;
+	border-radius: 6px;
+	margin-left: 130px;
+}
+.regime{
+	border-radius:6px;
+	width: 250px;
+	height: 30px;
+}
+.enviar{
+	background: #68DC77;
+	color:#971C20;
+	border-radius:6px;
+	width: 120px;
+	height: 30px;
+	margin-left: 40px;
+}
+.enviar:hover{
+	cursor: pointer;
+	background:#0B610B;
+	transition-duration: 0.2s;
+}
+
+.tabela{
+	width: 850px;
+	height: 50%;
+	margin: auto;
+	background: rgba(0,0,0,0.8);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	border-radius: 15px;
+}
+.tabela table{
+	margin-left: 170px;
+	color: white;
+	display: block;
+}
+
+/* fim do corpo ---------------------------------- */
+.rodape{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	text-align: center;
+	width:965px;
+	height:28px;
+	background-color: black;
+	padding-top:70px;
+	padding-left:15px;
+	margin:auto;
+}

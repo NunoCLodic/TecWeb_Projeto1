@@ -1,0 +1,139 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:12px;
+	background-color:#68DC77;
+}
+
+.cabecalho{
+	width:980px;         
+	height:262px;
+	margin:auto;
+}
+.logo{
+	width:410px;
+	height:220px;
+	float:left;
+}
+.banner { 
+    width:570px;
+	height:220px;
+	float:left;
+}
+.menu {
+	width:980px;
+	height:32px;
+	padding-top:10px;
+	background-color: black;
+	float:left;
+}
+.menu ul{
+	list-style: none;
+	text-decoration:none;
+	font-size:16px;
+	padding-left:15px;
+	color:#EFFBFB;
+}
+.menu li{
+	display: inline-block;
+}
+.menu a{
+	text-decoration: none;
+	color: #E9F1F2;
+	width: 70px;
+	height: 25px;
+	display: block;
+	padding: 2px;
+	font-size: 15px;
+}
+.menu a:hover {
+	background:#ED3F3C;
+	transition: 0.5s;
+}
+
+/* Fim do Cabeçalho ------------------------------------ */
+
+.conteudoContacto { 
+	width:980px;
+	height:1250px;
+	background-color:#F8DFC6;
+	color:#101010;
+	margin:auto;
+}
+.conteudoContacto h1{
+	color:#971C20;
+	padding-left:15px;
+	padding-top:10px;
+}
+.conteudoContacto p{
+	padding-left:15px;
+	padding-top:10px;
+	font-size:16px;
+	text-align: justify;
+}
+.conteudoContacto h1{
+	color:#971C20;
+	padding-left:15px;
+	padding-top:10px;
+	text-align: center;
+}
+.email{
+	width: 850px;
+	margin: auto;
+	background: rgba(0,0,0,0.8);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	border-radius: 15px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	border:none;
+	border-radius: 6px;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+#botao{
+	background: #68DC77;
+	color: #971C20;
+	padding: 20px;
+	border-radius: 15px;
+}
+#botao:hover{
+	cursor: pointer;
+	background:#0B610B;
+	transition-duration: 0.2s;
+}
+
+.mapa{
+	width: 850px;
+	height: 600px;
+	margin: auto;
+	background: rgba(0,0,0,0.8);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	border-radius: 15px;
+
+}
+
+/* fim do corpo ---------------------------------- */
+.rodape{
+	text-align: center;
+	width:965px;
+	height:28px;
+	background-color: black;
+	padding-top:70px;
+	padding-left:15px;
+	margin:auto;
+}

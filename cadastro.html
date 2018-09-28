@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 	<link rel="icon" type="img/jpg" href="./img/img1.jpg" />
-	<link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+    <link href="css/cadastro.css" rel="stylesheet" type="text/css"/>
 	<script type="text/javascript" src=" jquery-3.1.1.min.map"></script>
     <script type="text/javascript" src="script.js"></script>
     <title>IMC Cadastro</title>
@@ -16,7 +16,7 @@
 	<div class="cabecalho" >
 
   		<div class="logo" >                
-            <img src="img/logo.jpg" width="410" height="220">
+            <a href="index.html"><img src="img/logo.jpg" width="410" height="220"></a>
         </div>
                 
                 
@@ -25,59 +25,71 @@
         </div>
                           
 	     <div class="menu" > 
-	     	<ul>
-		     	<li><a href="index.html" > Home </a> </li>  
-		        <li><a href="cadastro.html" > Cadastro </a> </li>  
-		        <li><a href="#" > Contactos </a> </li>  
-		        <li><a href="#" > Pacientes </a> </li>  
-		        <li><a href="#" > Cardápio </a> </li>  		
-	     	</ul>
-         
+            <ul>
+                <li><a href="index.html" > Home </a> </li>  
+                <li><a href="cadastro.html" > Cadastro </a> </li>   
+                <li><a href="paciente.html" > Pacientes </a> </li>  
+                <li><a href="cardapio.html" > Cardápio </a> </li>  
+                <li><a href="contacto.html" > Contactos </a> </li>      
+            </ul>
         </div>
                 
 	</div>
 
-<div class="conteudo" >
+    <div class="conteudoCadastro" >
 
-		<div>
-        <form>
-            Nome: <input id="nome" type="text"/>
-            <br>
-            <br>
-            Peso: <input id="peso" type="text"/>
-            <br>
-            <br>
-            Altura: <input id="altura" type="text"/>
-            <br>
-            <br>
-            Idade: <input id="idade" type="text" />
-            <br>
-            <br>
-            Tipo de regime: 
-            <select>
-                <option>Regime 1</option>
-                <option>Regime 2</option>
-                <option>Regime 3</option>
-            </select>
-            <button type="submit" onclick="calculaIMC()">Enviar</button>
-        </form>
-    </div>
-    <br>
-    <table>
-        <tr>
-            <th>ID</th>
-            <th>Nome</th>
-            <th id="peso">Peso</th>
-            <th id="altura">Altura</th>
-            <th id="idade">Idade</th>
-            <th id="imc">IMC</th>      
-        </tr>
-    </table>
-    <script>calculaIMC();</script>
-        
-</div>
+        <div><h1>Cadastro</h1></div>
 
+            <div class="formulario">
+                <form>
+                    Nome: <input id="nome" type="text"/>
+                    <br>
+                    <br>
+                    Peso: <input id="peso" type="text"/>
+                    <br>
+                    <br>
+                    Altura: <input id="altura" type="text"/>
+                    <br>
+                    <br>
+                    Idade: <input id="idade" type="text" />
+                    <br>
+                    <br>
+                    Tipo de regime: 
+                    <select class="regime">
+                        <option>---Escolha Aqui o Regime---</option>
+                        <option>Regime 1</option>
+                        <option>Regime 2</option>
+                        <option>Regime 3</option>
+                        <option>Regime 3</option>
+                        <option>Regime 3</option>
+                        <option>Regime 3</option>
+                        <option>Regime 3</option>
+                    </select>
+                    <button type="submit" onclick="calculaIMC()" class="enviar">Cadastrar</button>
+                </form>
+            </div>
+            <br>
+            <div class="tabela">
+                 <table>
+                    <tr>
+                        <th id="id">ID</th>
+                        <th id="nome">Nome</th>
+                        <th id="peso">Peso</th>
+                        <th id="altura">Altura</th>
+                        <th id="idade">Idade</th>
+                        <th id="imc">IMC</th>      
+                    </tr>
+                    <td>id</td>
+                    <td>Nome</td>
+                    <td>Peso</td>
+                    <td>Altura</td>
+                    <td>IMC</td>
+                </table>     
+            </div>
 
+            <script>calculaIMC();</script>
+                      
+        </div>
 </body>
 
 <footer>
