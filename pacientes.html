@@ -1,15 +1,15 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
 	<link rel="icon" type="img/jpg" href="./img/iconPagina.jpg" />
-    <link href="css/cardapio.css" rel="stylesheet" type="text/css"/>
+    <link href="css/cadastro.css" rel="stylesheet" type="text/css"/>
     <link href="css/index.css" rel="stylesheet" type="text/css"/>
 
     <script type="text/javascript" src="libs/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <title>IMC Cardapio</title>
+    <title>Pacientes</title>
 </head>
 
 
@@ -32,9 +32,9 @@
          <div class="menu" id="Menu">
             <ul>
                 <li><a href="index.html" ><img src="img/home.png" width="15" height="15"> Home </a> </li>
-                <li><a href="pacientes.html" > Pacientes </a> </li>
+                <li><a href="pacientes.html" > Cadastro </a> </li>
                 <li><a href="cardapio.html" > Cardápio </a> </li>
-                <li><a href="contacto.html" > Contatos </a> </li>
+                <li><a href="contacto.html" > Contactos </a> </li>
             </ul>
         </div>
          <div class="social" id="Social" >
@@ -47,12 +47,29 @@
 
     </div>
 
-	<div class="conteudoCardapio">
+    <div class="conteudoCadastro" >
+            <div><h1>Cálculo do IMC</h1></div>
+            <p>Ja está calculado o seu IMC, veja no canto direito da tabela:</p>
 
-		<p>Cardapio em construção</p>
 
-	</div>
-
+            <div class="tabela">
+              <button id="btnAdicionar" class="enviar">Novo</button>
+              <table id="tblCadastro">
+                <thead>
+                    <tr>
+                      <th>Nome</th>
+                      <th>Peso</th>
+                      <th>Altura</th>
+                      <th>Idade</th>
+                      <th>IMC</th>
+                      <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+              </div>
+        </div>
 </body>
 
 <footer>
