@@ -30,6 +30,13 @@ body {
 	position: relative;
 	float:left;
 }
+.banner:hover{ 
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 .menu {
 	width:490px;
@@ -152,4 +159,15 @@ body {
 }
 .socialF li{
 	display: inline-block;
+}
+#subir{
+	bottom:0px;
+	margin-left: 620px;
+}
+.voltarTopo img:hover{
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }

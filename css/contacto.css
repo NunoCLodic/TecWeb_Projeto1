@@ -30,6 +30,13 @@ body {
 	position: relative;
 	float:left;
 }
+.banner:hover{ 
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
 .menu {
 	width:490px;
@@ -102,16 +109,17 @@ body {
 
 .conteudoContacto { 
 	width:980px;
-	height:1250px;
+	height:1300px;
 	background-color:#F8DFC6;
 	color:#101010;
 	margin:auto;
 }
 .conteudoContacto p{
+	color: green;
 	padding-left:15px;
 	padding-top:10px;
 	font-size:16px;
-	text-align: justify;
+	text-align:center;
 }
 .conteudoContacto h1{
 	color:#971C20;
@@ -125,7 +133,7 @@ body {
 	background: rgba(0,0,0,0.8);
 	padding: 10px 20px;
 	box-sizing: border-box;
-	margin-top: 30px;
+	margin-top: 10px;
 	border-radius: 15px;
 }
 input, textarea{
@@ -155,14 +163,26 @@ textarea{
 
 .mapa{
 	width: 850px;
-	height: 600px;
+	height: 650px;
 	margin: auto;
 	background: rgba(0,0,0,0.8);
 	padding: 10px 20px;
 	box-sizing: border-box;
 	margin-top: 30px;
 	border-radius: 15px;
+}
+.positivo4{
+	margin-left: 700px;
+	margin-top: 10px;	
+}
 
+.positivo4 :hover{
+	cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);	
 }
 
 /* fim do corpo ---------------------------------- */
@@ -198,4 +218,15 @@ textarea{
 }
 .socialF li{
 	display: inline-block;
+}
+#subir{
+	bottom:0px;
+	margin-left: 620px;
+}
+.voltarTopo img:hover{
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }

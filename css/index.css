@@ -22,13 +22,20 @@ body {
 	float:left;
 }
 
-.banner { 
+.banner{ 
 	display: block;
     width:570px;
 	height:220px;
 	margin: auto;
 	position: relative;
 	float:left;
+}
+.banner:hover{ 
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .menu {
@@ -72,19 +79,25 @@ body {
 	padding: 4px;
 	font-size: 15px;
 	margin-top: -3px;
+	margin-left: 10px;
 	height: 25px;
 	text-align: center;
 }
 .social a{
 	text-decoration: none;
 	display: block;
-	margin-left: 50px;
+	margin-left: 40px;
 	margin-top: -5px;
 }
 .menu a:hover {
 	background:#ED3F3C;
 	transition: 0.4s;
 	border-radius: 10px;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 #icn{
 	height: 95%;
@@ -92,6 +105,7 @@ body {
 
 }
 .social img:hover {
+	border: 1px  red;
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);
   -o-transform: scale(1.5);
@@ -192,12 +206,27 @@ body {
 }
 .foto1:hover{
 	cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .foto2:hover{
 	cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .foto3:hover{
 	cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .foto1 img{
@@ -291,7 +320,7 @@ body {
   padding: 0.1em 1em;
 }
 .Ptabela p{
-	color: blue;
+	color: green;
 	text-align: center;
 }
 
@@ -329,4 +358,15 @@ body {
 }
 .socialF li{
 	display: inline-block;
+}
+#subir{
+	bottom:0px;
+	margin-left: 620px;
+}
+.voltarTopo img:hover{
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
