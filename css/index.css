@@ -12,6 +12,7 @@ body {
 	width:980px;         
 	height:262px;
 	margin:auto;
+	border-radius: 4px;
 }
 .logo{
 	width:410px;
@@ -19,16 +20,39 @@ body {
 	float:left;
 }
 .banner { 
+	display: block;
     width:570px;
 	height:220px;
+	margin: auto;
+	position: relative;
 	float:left;
 }
+.banner li{
+	list-style: none;
+	position: absolute;
+}
+.banner img{
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	vertical-align: top;
+}
+
 .menu {
-	width:980px;
-	height:32px;
+	width:490px;
+	height:40px;
 	padding-top:10px;
 	background-color: black;
 	float:left;
+	border-top-left-radius: 6px;
+}
+.social {
+	width:490px;
+	height:40px;
+	padding-top:10px;
+	background-color: black;
+	float:right;
+	border-top-right-radius: 6px;
 }
 .menu ul{
 	list-style: none;
@@ -37,7 +61,13 @@ body {
 	padding-left:15px;
 	color:#EFFBFB;
 }
+.social ul{
+	list-style: none;
+}
 .menu li{
+	display: inline-block;
+}
+.social li{
 	display: inline-block;
 }
 .menu a{
@@ -46,14 +76,35 @@ body {
 	width: 70px;
 	height: 25px;
 	display: block;
-	padding: 2px;
+	padding: 4px;
 	font-size: 15px;
+	margin-top: 1px;
+	height: 25px;
+	text-align: center;
+}
+.social a{
+	text-decoration: none;
+	display: block;
+	margin-left: 50px;
+	margin-top: -5px;
 }
 .menu a:hover {
 	background:#ED3F3C;
 	transition: 0.4s;
+	border-radius: 10px;
 }
+#icn{
+	height: 95%;
+	width: 50px;
 
+}
+.social img:hover {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
 /* Fim do Cabeçalho ------------------------------------ */
 
 .conteudoIndex { 
@@ -91,11 +142,35 @@ body {
 
 /* fim do corpo ---------------------------------- */
 .rodape{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
 	text-align: center;
 	width:965px;
-	height:28px;
+	height:200px;
 	background-color: black;
 	padding-top:70px;
 	padding-left:15px;
 	margin:auto;
+}
+
+.socialF {
+	width:50%;
+	height:40px;
+	padding-top:10px;
+	background-color: black;
+	border-top-right-radius: 6px;
+	margin-left: 237px;
+}
+.socialF img:hover {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.socialF ul{
+	list-style: none;
+}
+.socialF li{
+	display: inline-block;
 }
