@@ -8,6 +8,14 @@ body {
 	font-size:12px;
 	background-color:#68DC77;
 }
+.barra{
+	width:980px;         
+	height:10px;
+	margin-top: 0px;
+	background-color: black;
+	border-radius: 4px;
+	position: fixed;
+}
 .cabecalho{
 	width:980px;         
 	height:262px;
@@ -23,11 +31,8 @@ body {
 }
 
 .banner{ 
-	display: block;
     width:570px;
 	height:220px;
-	margin: auto;
-	position: relative;
 	float:left;
 }
 .banner:hover{ 
@@ -46,6 +51,10 @@ body {
 	float:left;
 	border-top-left-radius: 6px;
 }
+.fixarMenu{
+	position:fixed;
+    margin-top: 0px;
+}
 .social {
 	width:490px;
 	height:40px;
@@ -54,7 +63,14 @@ body {
 	float:right;
 	border-top-right-radius: 6px;
 }
+.fixarSocial{
+	position:fixed;
+    margin-top: 0px;
+    margin-left: 490px;
+}
+
 .menu ul{
+	float:right;
 	list-style: none;
 	text-decoration:none;
 	font-size:16px;
@@ -62,6 +78,7 @@ body {
 	color:#EFFBFB;
 }
 .social ul{
+	float:right;
 	list-style: none;
 }
 .menu li{
@@ -205,6 +222,7 @@ body {
 	margin-top: -25px;
 }
 .foto1:hover{
+	border-image: url(border.png) 50 round;
 	cursor: pointer;
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);

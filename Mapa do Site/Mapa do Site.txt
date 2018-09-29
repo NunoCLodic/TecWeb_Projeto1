@@ -1,0 +1,28 @@
+Site que Cadastra alguem e calcula o IMC pela Formula abaixo:
+
+Indice de Massa Corporal (IMC)= peso/altura²
+
+o site depois de cadastrar a pessoa, deverá mostrar numa tabela os resultados como abaixo mostrado:
+
+ID | Nome | Altura | Peso | Idade | Tipo de Regime | Cardápio | IMC 
+1   Felipe   1.80    100kg    22      ComboBox         Link	22
+
+Menu do site:
+
+Home
+Cadastro
+Pacientes
+Cardapios
+Contato
+
+Facebook - Nutricionista
+Twitter - Nutricionista
+Instagram - Nutricionista
+
+Rodapé do site:
+
+Facebook - Nutricionista
+Twitter - Nutricionista
+Instagram - Nutricionista
+
+Botao-voltar a cima
