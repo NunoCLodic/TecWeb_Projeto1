@@ -14,11 +14,14 @@ body {
 	margin:auto;
 	border-radius: 4px;
 }
+
+
 .logo{
 	width:410px;
 	height:220px;
 	float:left;
 }
+
 .banner { 
 	display: block;
     width:570px;
@@ -26,16 +29,6 @@ body {
 	margin: auto;
 	position: relative;
 	float:left;
-}
-.banner li{
-	list-style: none;
-	position: absolute;
-}
-.banner img{
-	margin: auto;
-	height: 100%;
-	width: 100%;
-	vertical-align: top;
 }
 
 .menu {

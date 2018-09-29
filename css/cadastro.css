@@ -93,7 +93,6 @@ body {
 }
 /* Fim do Cabeçalho ------------------------------------ */
 
-
 .conteudoCadastro { 
 	width:980px;
 	height:900px;
@@ -101,11 +100,12 @@ body {
 	color:#101010;
 	margin:auto;
 	padding:1px;
+	margin-top: 8px;
 }
 .conteudoCadastro h1{
 	color:#971C20;
 	padding-left:15px;
-	padding-top:10px;
+	padding-top:20px;
 	text-align: center;
 }
 .conteudoCadastro p{
@@ -132,7 +132,7 @@ body {
 	background: rgba(0,0,0,0.8);
 	padding: 5px 10px;
 	box-sizing: border-box;
-	margin-top: 10px;
+	margin-top: 30px;
 	border-radius: 15px;
 }
 .formulario form{
@@ -171,7 +171,7 @@ input{
 
 .tabela{
 	width: 850px;
-	height: 50%;
+	height: 45%;
 	margin: auto;
 	background: rgba(0,0,0,0.8);
 	padding: 10px 20px;
@@ -179,10 +179,40 @@ input{
 	margin-top: 30px;
 	border-radius: 15px;
 }
-.tabela table{
-	margin-left: 170px;
+.tabela table {
+  width: 100%;
+  border: 2px solid #666;
+  margin-top: 50px;
+  text-align: center;
+}
+.tabela thead th{
+	text-align: center;
+	background-color: #4B2121;
 	color: white;
-	display: block;
+}
+#imc{
+	background-color: #68DC77;
+}
+.tabela thead {
+  background: #ccc url(https://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+.tabela tr:hover {
+  background-color:#3d80df;
+  color: #fff;
+}
+.tabela thead tr:hover {
+  background-color: #BA9B9B;
+  color: red;
+}
+
+.tabela th {
+  font-weight: normal;
+  text-align: left;
+}
+.tabela th, td {
+  padding: 0.1em 1em;
 }
 
 /* fim do corpo ---------------------------------- */
