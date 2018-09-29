@@ -102,34 +102,96 @@ body {
 
 .conteudoIndex { 
 	width:980px;
-	height:1250px;
+	height:1500px;
 	background-color:#F8DFC6;
 	color:#101010;
 	margin:auto;
 }
-.conteudoIndex h1{
+.h11{
 	color:#971C20;
 	padding-left:15px;
-	padding-top:10px;
+	padding-top:40px;
+}
+.h12{
+	color:#971C20;
+	padding-left:15px;
+	padding-top:400px;
+}
+.h13{
+	color:#971C20;
+	padding-left:15px;
+	padding-top:500px;
 }
 .conteudoIndex p{
+	color: white;
 	padding-left:15px;
-	padding-top:10px;
+	padding-top:20px;
 	font-size:16px;
 	text-align: justify;
 }
-.texto{
+.texto1{
 	width:650px;
-	height:auto; 
+	height:360px;
 	float:left;
+	margin: auto;
+	background: rgba(0,0,0,0.8);
+	padding: 5px 10px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 15px;
+	margin-left: 6px;
 }
-.foto{
-	width:330px;
-	height:auto;
+.texto2{
+	width:650px;
+	height:360px; 
 	float:left;
+	margin: auto;
+	background: rgba(0,0,0,0.8);
+	padding: 5px 10px;
+	box-sizing: border-box;
+	margin-top: 80px;
+	border-radius: 15px;
+	margin-left: 6px;
+}
+.texto3{
+	width:650px;
+	height:360px; 
+	float:left;
+	margin: auto;
+	background: rgba(0,0,0,0.8);
+	padding: 5px 10px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	border-radius: 15px;
+	margin-left: 6px;
+}
+.foto1{
+	width:300px;
+	height:360px;
+	float:left;
+	margin-top: 1px;
+}
+.foto2{
+	width:300px;
+	height:360px;
+	float:left;
+	margin-top: 1px;
+}
+.foto3{
+	width:300px;
+	height:360px;
+	float:left;
+	margin-top: 1px;
+
 }
 
-.foto img{
+.foto1 img{
+	padding:25px;
+}
+.foto2 img{
+	padding:25px;
+}
+.foto3 img{
 	padding:25px;
 }
 

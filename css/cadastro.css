@@ -113,7 +113,9 @@ body {
 	padding-top:10px;
 	font-size:16px;
 	text-align:justify;
+	text-align: center;
 }
+
 
 .tudo{
 	width: 95%;
@@ -132,7 +134,7 @@ body {
 	background: rgba(0,0,0,0.8);
 	padding: 5px 10px;
 	box-sizing: border-box;
-	margin-top: 30px;
+	margin-top: 10px;
 	border-radius: 15px;
 }
 .formulario form{
@@ -171,18 +173,18 @@ input{
 
 .tabela{
 	width: 850px;
-	height: 45%;
+	height: 40%;
 	margin: auto;
 	background: rgba(0,0,0,0.8);
 	padding: 10px 20px;
 	box-sizing: border-box;
-	margin-top: 30px;
+	margin-top: 10px;
 	border-radius: 15px;
 }
 .tabela table {
   width: 100%;
   border: 2px solid #666;
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
 }
 .tabela thead th{

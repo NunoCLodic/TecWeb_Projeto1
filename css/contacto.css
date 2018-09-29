@@ -101,11 +101,6 @@ body {
 	color:#101010;
 	margin:auto;
 }
-.conteudoContacto h1{
-	color:#971C20;
-	padding-left:15px;
-	padding-top:10px;
-}
 .conteudoContacto p{
 	padding-left:15px;
 	padding-top:10px;
@@ -115,7 +110,7 @@ body {
 .conteudoContacto h1{
 	color:#971C20;
 	padding-left:15px;
-	padding-top:10px;
+	padding-top:30px;
 	text-align: center;
 }
 .email{
