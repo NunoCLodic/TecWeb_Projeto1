@@ -1,15 +1,15 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
 	<link rel="icon" type="img/jpg" href="./img/iconPagina.jpg" />
-    <link href="css/cardapio.css" rel="stylesheet" type="text/css"/>
+    <link href="css/paciente.css" rel="stylesheet" type="text/css"/>
     <link href="css/index.css" rel="stylesheet" type="text/css"/>
 
     <script type="text/javascript" src="libs/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <title>IMC Cardapio</title>
+    <title>IMC Pacientes</title>
 </head>
 
 
@@ -47,12 +47,29 @@
 
     </div>
 
-	<div class="conteudoCardapio">
+    <div class="conteudoCadastro" >
+            <div><h1>Cálculo do IMC</h1></div>
+            <p>Para Calcular seu IMC basta Clicar em "Novo" preencher os dados e clicar em guardar:</p>
 
-		<p>Cardapio em construção</p>
 
-	</div>
-
+            <div class="tabela">
+              <button id="btnAdicionar" class="novo">Novo</button>
+              <table id="tblCadastro">
+                <thead>
+                    <tr>
+                      <th>Nome</th>
+                      <th>Peso</th>
+                      <th>Altura</th>
+                      <th>Idade</th>
+                      <th id="th">IMC</th>
+                      <th id="gd">Guardar / Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+              </div>
+        </div>
 </body>
 
 <footer>

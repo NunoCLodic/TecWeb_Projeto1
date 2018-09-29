@@ -1,19 +1,116 @@
-/*Estilo da Pasta Paciente*/
-.conteudoPaciente { 
+/*Estilo da Pasta Cadastro*/
+
+.conteudoCadastro { 
 	width:980px;
-	height:1250px;
+	height:900px;
 	background-color:#F8DFC6;
 	color:#101010;
 	margin:auto;
+	padding:1px;
+	margin-top: 8px;
 }
-.conteudoPaciente h1{
+.conteudoCadastro h1{
 	color:#971C20;
 	padding-left:15px;
-	padding-top:10px;
+	padding-top:20px;
+	text-align: center;
 }
-.conteudoPaciente p{
+.conteudoCadastro p{
+	color: green;
 	padding-left:15px;
 	padding-top:10px;
 	font-size:16px;
-	text-align: justify;
+	text-align:justify;
+	text-align: center;
+}
+.tudo{
+	width: 95%;
+	height: 91%;
+	margin: auto;
+	background: rgba(0,0,0,0.8);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 2px;
+}
+input{
+	margin-top: 10px;
+	color: black;
+	width: 50%;
+	margin-bottom: 5px;
+	padding: 7px;
+	box-sizing: border-box;
+	border:none;
+	border-radius: 6px;
+	margin-left: 10px;
+}
+.novo{
+	background: #68DC77;
+	color:#971C20;
+	border-radius:6px;
+	width: 120px;
+	height: 30px;
+	margin-left: 40px;
+}
+.novo:hover{
+	cursor: pointer;
+	background:#0B610B;
+	transition-duration: 0.2s;
+}
+
+.tabela{
+	width: 850px;
+	height: 90%;
+	margin: auto;
+	background: rgba(0,0,0,0.8);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	border-radius: 15px;
+}
+.tabela table {
+  width: 100%;
+  border: 2px solid #666;
+  margin-top: 20px;
+  text-align: center;
+}
+.tabela thead th{
+	text-align: center;
+	background-color: #4B2121;
+	color: white;
+}
+#th {
+	background-color: green;
+	width: 80px;
+}
+#gd {
+	background-color:#DF7401;
+	width: 80px;
+}
+
+.tabela th:hover {
+  background-color:#3d80df;
+  color: #fff;
+}
+.tabela tr:hover {
+  background-color:green;
+  color: #fff;
+}
+.tabela thead tr:hover {
+  background-color: #BA9B9B;
+  color: red;
+}
+
+.tabela th {
+  font-weight: normal;
+  text-align: left;
+}
+.tabela th, td {
+  padding: 0.1em 1em;
+}
+.btnExcluir{
+	margin-left: 20px;
+}
+.btnSalvar{
+	margin-left: 20px;
 }

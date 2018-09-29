@@ -388,3 +388,8 @@ body {
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
+.hr{
+	border:2px solid green;
+	padding: 5px;
+	margin-right: 20px;
+}
